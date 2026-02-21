@@ -5,7 +5,7 @@ import seaborn as sns
 import re
 
 BASE_DIR = Path().resolve().parent
-DATA_PATH = BASE_DIR / "data" / "processed" / "df_file.csv"
+DATA_PATH = BASE_DIR / "data" / "raw" / "df_file.csv"
 
 df = pd.read_csv(DATA_PATH)
 
